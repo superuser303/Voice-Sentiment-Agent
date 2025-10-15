@@ -5,8 +5,6 @@ Real-time voice/text sentiment analysis using Hugging Face's DistilBERT (pre-tra
 ## Demo
 [![HF Spaces](https://huggingface.co/spaces/Superuser404/voice-sentiment-agent/tree/main)]
 
-![Demo GIF](assets/demo.gif)
-
 ## Features
 | Feature | Tech | Why Awesome |
 |---------|------|-------------|
