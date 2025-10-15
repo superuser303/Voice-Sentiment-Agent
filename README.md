@@ -3,7 +3,7 @@
 Real-time voice/text sentiment analysis using Hugging Face's DistilBERT (pre-trained DL model), Google STT, and Groq/LangChain agent for actions. Built online in Colab, deployed on HF Spaces. Latency: ~3-5s.
 
 ## Demo
-[![HF Spaces](https://huggingface.co/spaces/hf-space-badge?repository=superuser303/voice-sentiment-hf-models)](your-space-url)
+[![HF Spaces](https://huggingface.co/spaces/Superuser404/voice-sentiment-agent)]
 
 ![Demo GIF](assets/demo.gif)
 
@@ -21,6 +21,6 @@ Real-time voice/text sentiment analysis using Hugging Face's DistilBERT (pre-tra
 3. Run: `python app.py` (or view on HF Spaces)
 
 ## Colab Build
-[Open in Colab](link-to-your-notebook)
+[Open in Colab](https://colab.research.google.com/drive/19LPOT2nGQEM-fRwb5jJ22lDUlB6vAJx2?usp=sharing)
 
 Built with ❤️ for ML interviews—extends my n8n-Task-Agent for agentic DL.
