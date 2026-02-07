@@ -1,6 +1,6 @@
 from transformers import pipeline 
 import speech_recognition as sr 
-from langchain_groq import Groq
+from langchain_groq import ChatGroq
 from langchain.agents import initialize_agent, Tool
 import gradio as gr
 
