@@ -24,6 +24,12 @@ def Voice_to_text(audio_file):
         except sr.RequestError as e:
             return "API error-check quota or try later"
 
+llm = ChatGroq(
+    model="llama3-8b-8192",
+    api_key=os.environ.get("GROQ_API_KEY"),
+    temperature=0
+)
+
 #Agent: Groq LLM + Langchain
 llm = Groq(model="llama3-8b-8192", api_key="your_free_groq_key") # Groq API Key 
 tools = [
